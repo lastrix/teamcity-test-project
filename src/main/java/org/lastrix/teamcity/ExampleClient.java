@@ -10,4 +10,8 @@ public final class ExampleClient {
     public String getMessage() {
         return "Hello, " + name + "!";
     }
+
+    public void printMessage() {
+        System.out.println(getMessage());
+    }
 }
